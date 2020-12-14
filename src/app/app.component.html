@@ -1,0 +1,29 @@
+<main style="width: 250px; height: 250px">
+  <mat-drawer-container fxFill>
+    <mat-drawer-content fxLayout="column" fxLayoutAlign="start center" fxFill>
+      <div fxLayout="row" style="margin-top: 2rem">
+        <h1>Typing Status Hider</h1>
+      </div>
+
+      <div fxLayout="row" *ngIf="!isLoaded">
+        <button mat-flat-button (click)="getData()">Get</button>
+      </div>
+
+      <div *ngIf="!isLoaded">
+        <mat-spinner></mat-spinner>
+
+      </div>
+      <div *ngIf="isLoaded" style="margin-top: 1rem">
+        <h4>Your typing state is:  {{isTypingHidden ? 'Hidden' : 'Visible'}}</h4>
+
+        <div fxLayout="row">
+          <mat-slide-toggle [(ngModel)]="isTypingHidden" (toggleChange)="toggleHideTypingState()">Toggle Visible State</mat-slide-toggle>
+        </div>
+      </div>
+      <div style="margin-top: 4rem">
+        Powered by Fishuke
+      </div>
+
+    </mat-drawer-content>
+  </mat-drawer-container>
+</main>
