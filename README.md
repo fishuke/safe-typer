@@ -9,6 +9,7 @@ Safe Typer is an typing status hide extension for Discord in Chrome.
 
 ```bash
 git clone https://github.com/fishuke/safe-typer.git
+cd safe-typer
 npm install
 ```
 
