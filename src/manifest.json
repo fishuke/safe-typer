@@ -1,6 +1,6 @@
 {
   "name": "Typing Status Hider for Discord™",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Message safely! Don't let anyone know you are typing.",
   "manifest_version": 2,
   "permissions": [

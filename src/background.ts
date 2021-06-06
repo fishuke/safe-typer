@@ -19,7 +19,7 @@ chrome.storage.sync.get(['hideTyping'], result => {
       return {cancel: hideTyping};
     },
     {
-      urls: ['https://discord.com/api/v9/channels/*/typing']
+      urls: ['https://discord.com/api/*/channels/*/typing']
     },
     ['blocking']
   );
