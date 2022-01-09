@@ -1,6 +1,6 @@
 /// <reference types="chrome"/>
 
-let hideTyping = false;
+let hideTyping = true;
 
 chrome.storage.sync.get(['hideTyping'], result => {
 
