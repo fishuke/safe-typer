@@ -1,6 +1,6 @@
 # Safe Typer
 
-Safe Typer is an typing status hider extension for Discord in Chrome.
+Safe Typer is an typing status hider Chrome extension for Discord.
 
 ## Installation
 
